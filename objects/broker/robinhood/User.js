@@ -40,7 +40,7 @@ class User extends Robinhood {
 				form: {
 					username: _this.username,
 					password: _this.password,
-					scope: "internal"
+					scope: "internal",
 					grant_type: "password",
 				}
 			}, (error, response, body) => {
